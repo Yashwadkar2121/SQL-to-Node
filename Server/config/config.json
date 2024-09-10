@@ -1,0 +1,17 @@
+{
+  "development": {
+    "username": "root",
+    "password": "",
+    "database": "tablesprint",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+
+  "production": {
+    "username": "your_prod_user",
+    "password": "your_prod_password",
+    "database": "your_prod_database",
+    "host": "your_prod_host",
+    "dialect": "mysql"
+  }
+}
