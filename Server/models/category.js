@@ -1,6 +1,7 @@
+// models/category.js
 const { DataTypes } = require("sequelize");
 const sequelize = require("../db/db");
-const User = require("./User"); // Assuming User model is in the same directory
+const User = require("./User"); // Assuming User model is in the same directory 
 
 const Category = sequelize.define(
   "Category",
@@ -10,7 +11,7 @@ const Category = sequelize.define(
       allowNull: false,
     },
     image: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING, 
     },
     status: {
       type: DataTypes.ENUM("active", "inactive"),
